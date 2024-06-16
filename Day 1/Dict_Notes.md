@@ -9,11 +9,11 @@ print(student['name'])
 ```
 
 - Some basic functions of dictionary:
-    - ```.get()
-    - ```.update( )
-    - ``` .pop()
-    - ``` .keys()
-    -  ``` .items()
+    - .get()
+    - .update( )
+    - .pop()
+    - .keys()
+    - .items()
 
 - To loop through dict just like lists and tuples :
 ```
