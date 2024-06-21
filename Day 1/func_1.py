@@ -1,4 +1,7 @@
-#1st apporach
+''' 1. Write a Python function to find the maximum of three numbers. '''
+
+
+#1ST APPORACH
 # def max3(a,b,c):
 #     if a > b:
 #         print(a)
@@ -14,7 +17,7 @@
 # max3(a,b,c)
 
 
-#2nd Apporach 
+#2nd APPORACH
 def max3(a,b,c):
     if a > b:
         return a
