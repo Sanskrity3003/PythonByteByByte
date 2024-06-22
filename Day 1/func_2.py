@@ -1,3 +1,5 @@
+'''Write a Python function to sum all the numbers in a list.'''
+
 def num_list(nums):
     #initialising with zero
     flag=0
