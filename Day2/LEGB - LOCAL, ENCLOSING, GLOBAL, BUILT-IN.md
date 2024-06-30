@@ -1,6 +1,6 @@
 ## Scope refers to a place in the program where a variable can be used.
 
-
+### Python works acc, to this LEBG order itself.
 # Type of scopes:
 
 1. Local Scope
@@ -36,10 +36,16 @@ print(func())
 ```
 a = 10 # global scope
 def func():
-	global x
+	global x # this is used to define that well make change in globalx now
 ```
 
 ### 4. Built-in-scope:
 - These are built - in functions like : len(), print().
+eg:```
+```
+import builtins
+print(dir(builtins)) # provides list of buitlin functions
+m = min([1,2,3])
+```
 ## Naming variables: 
 If same variable with different values are stated inside and outside the function, the program considers it as two different variables.
